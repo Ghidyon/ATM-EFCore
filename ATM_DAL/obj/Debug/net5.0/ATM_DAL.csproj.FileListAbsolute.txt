@@ -1,0 +1,15 @@
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\bin\Debug\net5.0\ATM_DAL.deps.json
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\bin\Debug\net5.0\ATM_DAL.runtimeconfig.json
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\bin\Debug\net5.0\ATM_DAL.runtimeconfig.dev.json
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\bin\Debug\net5.0\ATM_DAL.dll
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\bin\Debug\net5.0\ref\ATM_DAL.dll
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\bin\Debug\net5.0\ATM_DAL.pdb
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\obj\Debug\net5.0\ATM_DAL.csproj.AssemblyReference.cache
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\obj\Debug\net5.0\ATM_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\obj\Debug\net5.0\ATM_DAL.AssemblyInfoInputs.cache
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\obj\Debug\net5.0\ATM_DAL.AssemblyInfo.cs
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\obj\Debug\net5.0\ATM_DAL.csproj.CoreCompileInputs.cache
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\obj\Debug\net5.0\ATM_DAL.dll
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\obj\Debug\net5.0\ref\ATM_DAL.dll
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\obj\Debug\net5.0\ATM_DAL.pdb
+C:\Users\ghidyon\source\repos\ATM-EFCore\ATM_DAL\obj\Debug\net5.0\ATM_DAL.genruntimeconfig.cache
