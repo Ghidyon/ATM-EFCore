@@ -52,7 +52,8 @@ namespace ATM_EFCore
                 Name = name,
                 Pin = pin,
                 AccountBalance = amountDeposited,
-                AccountNumber = new Random().Next(1000000000, 2147483647)
+                AccountNumber = new Random().Next(1000000000, 2147483647),
+                DateCreated = DateTime.Now
             };
 
             ATMService atm = new ATMService();

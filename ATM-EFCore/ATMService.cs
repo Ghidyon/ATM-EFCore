@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ATM_DAL;
 using ATM_DAL.Model;
 
 namespace ATM_EFCore
@@ -14,20 +15,22 @@ namespace ATM_EFCore
         public event EventHandler<DebitEventArgs> DebitAlert;
         public event EventHandler<CreditEventArgs> CreditAlert;
 
+        private static ATMContext context = new ATMContext();
         private static int _vault = 500000;
         private static User _user;
 
         public void Register(User model)
         {
-            _user = model;
-            Console.WriteLine($"\n{_user.Name}, has been registered successfully!");
+            context.Users.Add(model);
+            context.SaveChanges();
+            Console.WriteLine($"\n{model.Name}, has been registered successfully!");
             Console.ForegroundColor = ConsoleColor.Green;
 
             var creditArgs = new CreditEventArgs()
             {
-                AccountNumber = _user.AccountNumber,
-                DepositAmount = _user.AccountBalance,
-                AccountBalance = _user.AccountBalance
+                AccountNumber = model.AccountNumber,
+                DepositAmount = model.AccountBalance,
+                AccountBalance = model.AccountBalance
             };
             
             OnCredit(creditArgs);
